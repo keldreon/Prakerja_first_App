@@ -12,12 +12,12 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Prakerja Altera First App',
+      title: 'Prakerja Alterra First App',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Halo Altera'),
+      home: const MyHomePage(title: 'Halo Alterra'),
     );
   }
 }
@@ -47,7 +47,7 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              'Nama saya Galih Abdul Muhyi',
+              'Nama saya adalah Galih Abdul Muhyi',
             ),
           ],
         ),
